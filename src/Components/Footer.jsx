@@ -2,8 +2,10 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <footer className="bg-gray-900 text-white text-center py-4 mt-10">
+      <p className="text-sm">
+        © {new Date().getFullYear()} E-Cart. All rights reserved.
+      </p>
+    </footer>
   )
 }
